@@ -4,7 +4,7 @@ def tokenize(code):
 
     token_specification = [
         ('DECIMAL', r'\d+.\d+'),
-        ('NUMBER',   r'\d+(\.\d*)?'),       
+        ('NUMBER',   r'\d+'),       
         ('ASSIGN',   r'='),                     
         ('HEADER', r'<stdio.h>'),
         ('COMMENT', r'//.*'), 
